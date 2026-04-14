@@ -1,0 +1,42 @@
+{
+  "name": "reviews",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "mcp": "ruler apply",
+    "mcp:revert": "ruler revert"
+  },
+  "dependencies": {
+    "@mdi/font": "7.4.47",
+    "@nuxt/content": "^3.13.0",
+    "better-sqlite3": "^12.9.0",
+    "nuxt": "^4.4.2",
+    "ohash": "^2.0.11",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.30",
+    "vuetify": "^4.0.2",
+    "vuetify-nuxt-module": "^1.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.15.2",
+    "@nuxt/fonts": "^0.14.0",
+    "@pinia/nuxt": "^0.11.3",
+    "@resvg/resvg-js": "^2.6.2",
+    "@resvg/resvg-wasm": "^2.6.2",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-config-vuetify": "^4.3.4",
+    "node-gyp": "^12.2.0",
+    "nuxt-og-image": "^6.4.1",
+    "sass": "^1.98.0",
+    "satori": "^0.26.0",
+    "sharp": "^0.34.5"
+  }
+}
